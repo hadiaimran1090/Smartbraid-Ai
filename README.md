@@ -8,14 +8,13 @@
 
 ## 🚀 About the Project
 
-**Smartbraid-AI** is an advanced Android application designed to revolutionize the salon experience. It connects customers with professional stylists and uses AI to suggest the perfect hair patterns. From booking appointments to managing a full-scale salon staff, Smartbraid-AI is a complete solution for both users and salon owners.
+**Smartbraid-AI** is a cutting-edge Android application designed to modernize the salon and beauty industry. It bridges the gap between expert stylists and customers through an intuitive mobile experience. Featuring AI-driven hair pattern suggestions and a robust management system, it simplifies booking and salon operations.
 
-Built with modern Android standards, it ensures a smooth, real-time experience for:
-- AI-Driven Hair Pattern Discovery
-- Seamless Stylist Booking Flow
-- Comprehensive Admin Dashboard
-- Real-time Notifications & Rewards
-- Secure Cloud-based Image Management
+### 🌟 Key Highlights:
+- **AI-Powered:** Intelligent hair pattern discovery for personalized styling.
+- **End-to-End Booking:** From stylist selection to secure checkout.
+- **Admin Excellence:** Data-driven insights and staff management for salon owners.
+- **Modern UI:** Built entirely with Jetpack Compose and Material 3.
 
 ---
 
@@ -29,71 +28,73 @@ Built with modern Android standards, it ensures a smooth, real-time experience f
   <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" />
   <img src="https://img.shields.io/badge/Coroutines-8A2BE2?style=for-the-badge&logo=kotlin&logoColor=white" />
   <img src="https://img.shields.io/badge/Coil-3448C5?style=for-the-badge&logo=coil&logoColor=white" />
+  <img src="https://img.shields.io/badge/Navigation_Compose-4285F4?style=for-the-badge&logo=google&logoColor=white" />
 </p>
 
 ---
 
 ## ⚡ Features
 
-### 👨‍💼 Admin Panel
-- **Overview & Analytics:** Monitor salon performance.
-- **Staff Management:** Add, edit, or remove stylists.
-- **Schedule Control:** Manage artist availability and salon timings.
-- **Booking History:** Access detailed records of all appointments.
-- **Client Management:** View and manage customer data.
+### 👨‍💼 Admin Dashboard
+- **Real-time Analytics:** Track salon performance and bookings.
+- **Stylist Management:** Seamlessly add and update artist profiles.
+- **Schedule Orchestration:** Manage artist availability and shift timings.
+- **Client Records:** Maintain a detailed database of customers and history.
 
-### 👩‍💻 Customer Experience
-- **AI Pattern Suggestions:** Get hair pattern ideas using AI.
-- **Stylist Discovery:** Browse artist profiles and their portfolios.
-- **Instant Booking:** Secure your spot with a few taps.
-- **Rewards System:** Earn points and track your salon rewards.
-- **Profile & Notifications:** Manage your account and stay updated.
+### 👩‍💻 Customer App
+- **AI Discovery:** Explore trending hair patterns using AI logic.
+- **Artist Portfolios:** View detailed profiles and previous work of stylists.
+- **Seamless Booking:** Interactive scheduling with instant confirmation.
+- **Loyalty Program:** Earn rewards and track points for every visit.
+- **Dark Mode Support:** Fully optimized for both light and dark themes.
 
 ---
 
 ## ⚙️ Setup & Installation
 
 ### 🔹 Prerequisites
-- [Android Studio Ladybug](https://developer.android.com/studio) or newer
-- JDK 11+
-- Firebase Project (Google Services JSON)
-- Cloudinary Account
+- **Android Studio Ladybug** (or newer)
+- **JDK 11+**
+- **Firebase Account** (Firestore & Auth enabled)
+- **Cloudinary Account** (for image storage)
 
 ### 🔹 Steps to Run Locally
 
-1. **Clone the Repository**
+1. **Clone the Project**
    ```bash
    git clone https://github.com/hadiaimran1090/Smartbraid-Ai.git
    cd Smartbraid-Ai
    ```
 
 2. **Configure Cloudinary**
-   Open `gradle.properties` and add your credentials:
+   Update your `gradle.properties` file:
    ```properties
-   CLOUDINARY_CLOUD_NAME=your_cloud_name
-   CLOUDINARY_UPLOAD_PRESET=your_upload_preset
+   CLOUDINARY_CLOUD_NAME=your_name
+   CLOUDINARY_UPLOAD_PRESET=your_preset
    ```
 
-3. **Firebase Setup**
-   - Place your `google-services.json` in the `app/` directory.
-   - Enable Auth and Firestore in your Firebase console.
+3. **Firebase Integration**
+   - Add your `google-services.json` to the `app/` folder.
+   - Ensure `google-services` plugin is applied in `build.gradle`.
 
-4. **Build & Run**
-   - Open the project in Android Studio.
-   - Sync Gradle files.
-   - Run on an Emulator or Physical Device.
+4. **Build & Install**
+   - Sync Gradle and run the `:app` module on your device.
 
 ---
 
 ## 🎬 Demo
 
-[![App Demo](app/src/main/res/drawable/banner.png)](https://github.com/hadiaimran1090/Smartbraid-Ai)
+<p align="center">
+  <a href="https://drive.google.com/file/d/1OOgSyzXq1A0eJKjG-rw7mBlKQ16ycKMJ/view?usp=drivesdk" target="_blank">
+    <img src="https://img.shields.io/badge/▶_Watch_App_Demo-2563EB?style=for-the-badge&logo=google-drive&logoColor=white" alt="Smartbraid AI Demo" height="45"/>
+  </a>
+</p>
 
 ---
 
 ## 🌟 Support & Contribution
 
-If you find this project helpful, please consider giving it a **⭐ Star** on GitHub — it helps a lot! 🚀
+Loved this project? Give it a **⭐ Star** on GitHub to show your support! 🚀
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=2563EB&center=true&vCenter=true&width=600&lines=Contributions+are+Welcome!;Star+the+Repo+if+you+like+it!" alt="Typing SVG">
