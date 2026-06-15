@@ -85,7 +85,7 @@
 ## 🎬 Demo
 
 <p align="center">
-  <a href="https://drive.google.com/file/d/1OOgSyzXq1A0eJKjG-rw7mBlKQ16ycKMJ/view?usp=drivesdk" target="_blank">
+  <a href="https://drive.google.com/open?id=1PWZ0VAkr77hVEhnKxzcNzFk71LFkucjo&usp=drive_fs" target="_blank">
     <img src="https://img.shields.io/badge/▶_Watch_App_Demo-2563EB?style=for-the-badge&logo=google-drive&logoColor=white" alt="Smartbraid AI Demo" height="45"/>
   </a>
 </p>
